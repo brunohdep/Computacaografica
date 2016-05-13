@@ -140,5 +140,26 @@ namespace ImageProcess
             pictureBox.Image = currentImage;
 
         }
+
+        private void cropToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var img = (Bitmap)currentImage.Clone();
+            Crop filter = new Crop(new Rectangle(1200, 750, 500, 500));
+            var newImage = (Bitmap)filter.Apply(img);
+            currentImage = newImage;
+            pictureBox.Image = newImage;
+        }
+
+        private void crop2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var img = (Bitmap)currentImage.Clone();
+            Int32 x, y;
+            x = (img.Width) / 3;
+            y = (img.Height) / 3;
+            Crop filter = new Crop(new Rectangle(x, y, 300, 300));
+            var newImage = (Bitmap)filter.Apply(img);
+            currentImage = newImage;
+            pictureBox.Image = newImage;
+        }
     }
 }
