@@ -96,3 +96,6 @@ C:\Users\a120002\Downloads\CG\Computa--o-grafica\ImageProcess\ImageProcess\obj\D
 C:\Users\a120002\Downloads\CG\Computa--o-grafica\ImageProcess\ImageProcess\obj\Debug\ImageProcess.FrmMain.resources
 C:\Users\a120002\Downloads\CG\Computa--o-grafica\ImageProcess\ImageProcess\obj\Debug\ImageProcess.Properties.Resources.resources
 C:\Users\a120002\Downloads\CG\Computa--o-grafica\ImageProcess\ImageProcess\obj\Debug\ImageProcess.csproj.GenerateResource.Cache
+C:\Users\life-\OneDrive\Documentos\GitHub\Computacaografica\ImageProcess\ImageProcess\bin\Debug\ImageProcess.exe.config
+C:\Users\life-\OneDrive\Documentos\GitHub\Computacaografica\ImageProcess\ImageProcess\obj\Debug\ImageProcess.exe
+C:\Users\life-\OneDrive\Documentos\GitHub\Computacaografica\ImageProcess\ImageProcess\obj\Debug\ImageProcess.pdb
