@@ -51,6 +51,8 @@
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.panelImage = new System.Windows.Forms.Panel();
             this.crop3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.crop4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.crop5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
@@ -165,7 +167,9 @@
             this.processarPlacaToolStripMenuItem,
             this.cropToolStripMenuItem,
             this.crop2ToolStripMenuItem,
-            this.crop3ToolStripMenuItem});
+            this.crop3ToolStripMenuItem,
+            this.crop4ToolStripMenuItem,
+            this.crop5ToolStripMenuItem});
             this.aforgeToolStripMenuItem.Name = "aforgeToolStripMenuItem";
             this.aforgeToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.aforgeToolStripMenuItem.Text = "Aforge";
@@ -247,6 +251,20 @@
             this.crop3ToolStripMenuItem.Text = "Crop3";
             this.crop3ToolStripMenuItem.Click += new System.EventHandler(this.crop3ToolStripMenuItem_Click);
             // 
+            // crop4ToolStripMenuItem
+            // 
+            this.crop4ToolStripMenuItem.Name = "crop4ToolStripMenuItem";
+            this.crop4ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.crop4ToolStripMenuItem.Text = "Crop4";
+            this.crop4ToolStripMenuItem.Click += new System.EventHandler(this.crop4ToolStripMenuItem_Click);
+            // 
+            // crop5ToolStripMenuItem
+            // 
+            this.crop5ToolStripMenuItem.Name = "crop5ToolStripMenuItem";
+            this.crop5ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.crop5ToolStripMenuItem.Text = "Crop5";
+            this.crop5ToolStripMenuItem.Click += new System.EventHandler(this.crop5ToolStripMenuItem_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -296,6 +314,8 @@
         private System.Windows.Forms.ToolStripMenuItem cropToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem crop2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem crop3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem crop4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem crop5ToolStripMenuItem;
     }
 }
 
