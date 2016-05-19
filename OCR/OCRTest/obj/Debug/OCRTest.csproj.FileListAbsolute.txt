@@ -31,3 +31,14 @@ C:\Users\life-\OneDrive\Documentos\GitHub\Computacaografica\OCR\OCRTest\obj\Debu
 C:\Users\life-\OneDrive\Documentos\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.FormMain.resources
 C:\Users\life-\OneDrive\Documentos\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.Properties.Resources.resources
 C:\Users\life-\OneDrive\Documentos\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.csproj.GenerateResource.Cache
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\bin\Debug\OCRTest.exe.config
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.exe
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.pdb
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\bin\Debug\OCRTest.exe
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\bin\Debug\OCRTest.pdb
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\bin\Debug\tessnet2_64.dll
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\bin\Debug\tessnet2_64.pdb
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.csprojResolveAssemblyReference.cache
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.FormMain.resources
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.Properties.Resources.resources
+C:\Users\a120002\Documents\GitHub\Computacaografica\OCR\OCRTest\obj\Debug\OCRTest.csproj.GenerateResource.Cache

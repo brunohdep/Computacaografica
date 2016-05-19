@@ -42,5 +42,10 @@ namespace OCRTest
         {
 
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
