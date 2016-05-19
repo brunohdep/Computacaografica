@@ -31,6 +31,7 @@ namespace OCRTest
             var image = (Bitmap) pictureBox1.Image;
             var ocr = new tessnet2.Tesseract();
             ocr.Init(@"tessdata", "eng", false);
+            ocr.SetVariable("tesseract_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVXWYZ-1234567890");
             var result = ocr.DoOCR(image, Rectangle.Empty);
             StringBuilder sb = new StringBuilder();
             foreach (tessnet2.Word word in result)
