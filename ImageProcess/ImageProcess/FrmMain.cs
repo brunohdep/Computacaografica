@@ -197,7 +197,7 @@ namespace ImageProcess
             Int32 x, y;
             x = (img.Width)/7;
             y = 0;
-            Crop filter = new Crop(new Rectangle(x, y, 200, 70));
+            Crop filter = new Crop(new Rectangle(x, y, 220, 70));
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
             pictureBox.Image = newImage;//coxinha
