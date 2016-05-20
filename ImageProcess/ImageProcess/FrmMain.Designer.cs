@@ -45,14 +45,10 @@
             this.detectObjectsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.processarPlacaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cropToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.crop2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblFileName = new System.Windows.Forms.ToolStripStatusLabel();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.panelImage = new System.Windows.Forms.Panel();
-            this.crop3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.crop4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.crop5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
@@ -165,11 +161,7 @@
             this.medianToolStripMenuItem1,
             this.detectObjectsToolStripMenuItem,
             this.processarPlacaToolStripMenuItem,
-            this.cropToolStripMenuItem,
-            this.crop2ToolStripMenuItem,
-            this.crop3ToolStripMenuItem,
-            this.crop4ToolStripMenuItem,
-            this.crop5ToolStripMenuItem});
+            this.cropToolStripMenuItem});
             this.aforgeToolStripMenuItem.Name = "aforgeToolStripMenuItem";
             this.aforgeToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.aforgeToolStripMenuItem.Text = "Aforge";
@@ -201,13 +193,6 @@
             this.cropToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.cropToolStripMenuItem.Text = "Crop";
             this.cropToolStripMenuItem.Click += new System.EventHandler(this.cropToolStripMenuItem_Click);
-            // 
-            // crop2ToolStripMenuItem
-            // 
-            this.crop2ToolStripMenuItem.Name = "crop2ToolStripMenuItem";
-            this.crop2ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.crop2ToolStripMenuItem.Text = "Crop2";
-            this.crop2ToolStripMenuItem.Click += new System.EventHandler(this.crop2ToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
@@ -243,27 +228,6 @@
             this.panelImage.Name = "panelImage";
             this.panelImage.Size = new System.Drawing.Size(292, 291);
             this.panelImage.TabIndex = 0;
-            // 
-            // crop3ToolStripMenuItem
-            // 
-            this.crop3ToolStripMenuItem.Name = "crop3ToolStripMenuItem";
-            this.crop3ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.crop3ToolStripMenuItem.Text = "Crop3";
-            this.crop3ToolStripMenuItem.Click += new System.EventHandler(this.crop3ToolStripMenuItem_Click);
-            // 
-            // crop4ToolStripMenuItem
-            // 
-            this.crop4ToolStripMenuItem.Name = "crop4ToolStripMenuItem";
-            this.crop4ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.crop4ToolStripMenuItem.Text = "Crop4";
-            this.crop4ToolStripMenuItem.Click += new System.EventHandler(this.crop4ToolStripMenuItem_Click);
-            // 
-            // crop5ToolStripMenuItem
-            // 
-            this.crop5ToolStripMenuItem.Name = "crop5ToolStripMenuItem";
-            this.crop5ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.crop5ToolStripMenuItem.Text = "Crop5";
-            this.crop5ToolStripMenuItem.Click += new System.EventHandler(this.crop5ToolStripMenuItem_Click);
             // 
             // FrmMain
             // 
@@ -312,10 +276,6 @@
         private System.Windows.Forms.ToolStripMenuItem detectObjectsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem processarPlacaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cropToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem crop2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem crop3ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem crop4ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem crop5ToolStripMenuItem;
     }
 }
 

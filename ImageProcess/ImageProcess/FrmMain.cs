@@ -140,67 +140,48 @@ namespace ImageProcess
             pictureBox.Image = currentImage;
 
         }
-
-        private void cropToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cortar(int x,int y,int w,int z)
         {
             var img = (Bitmap)currentImage.Clone();
-            Int32 x, y;
-            x = (img.Width) / 3;
-            y = (img.Height) / 3;
-            Crop filter = new Crop(new Rectangle(x, y, 600, 400));
-            var newImage = (Bitmap)filter.Apply(img);
-            currentImage = newImage;
-            pictureBox.Image = newImage;
-
-        }
-
-        private void crop2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var img = (Bitmap)currentImage.Clone();
-            Int32 x, y;
-            x = (img.Width) / 3;
-            y = (img.Height) / 3;
-            Crop filter = new Crop(new Rectangle(x, y, 350, 250));
+            int a, b;
+            a = (img.Width) / x;
+            b = (img.Height) / y;
+            Crop filter = new Crop(new Rectangle(a, b, w, z));
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
             pictureBox.Image = newImage;
         }
-
-        private void crop3ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cortar2(int y,int w,int z)
         {
             var img = (Bitmap)currentImage.Clone();
-            Int32 x, y;
-            x = 0;
-            y = (img.Height)/2;
-            Crop filter = new Crop(new Rectangle(x, y, 350, 125));
-            var newImage = (Bitmap)filter.Apply(img);
-            currentImage = newImage;
-            pictureBox.Image = newImage;
-
-        }
-
-        private void crop4ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var img = (Bitmap)currentImage.Clone();
-            Int32 x, y;
-            x = 0;
-            y = (img.Height) / 3;
-            Crop filter = new Crop(new Rectangle(x, y, 350, 70));
+            int a, b;
+            a = 0;
+            b = (img.Height) / y;
+            Crop filter = new Crop(new Rectangle(0, b, w, z));
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
             pictureBox.Image = newImage;
         }
-
-        private void crop5ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cortar3(int x,int w,int z)
         {
             var img = (Bitmap)currentImage.Clone();
-            Int32 x, y;
-            x = (img.Width)/7;
-            y = 0;
-            Crop filter = new Crop(new Rectangle(x, y, 220, 70));
+            Int32 a, b;
+            a = (img.Width) / x;
+            b = 0;
+            Crop filter = new Crop(new Rectangle(a, b, w, z));
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
             pictureBox.Image = newImage;//coxinha
         }
+        private void cropToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cortar(3, 3, 600, 400);
+            cortar(3, 3, 350, 250);
+            cortar2(2,350,125);
+            cortar2(3, 350, 70);
+            cortar3(7, 220, 70);
+
+        }
+
     }
 }
