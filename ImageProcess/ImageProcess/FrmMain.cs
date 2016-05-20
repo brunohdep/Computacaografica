@@ -151,6 +151,7 @@ namespace ImageProcess
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
             pictureBox.Image = newImage;
+
         }
 
         private void crop2ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -184,7 +185,7 @@ namespace ImageProcess
             Int32 x, y;
             x = 0;
             y = (img.Height) / 3;
-            Crop filter = new Crop(new Rectangle(x, y, 350, 42));
+            Crop filter = new Crop(new Rectangle(x, y, 350, 70));
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
             pictureBox.Image = newImage;
@@ -194,9 +195,9 @@ namespace ImageProcess
         {
             var img = (Bitmap)currentImage.Clone();
             Int32 x, y;
-            x = 0;
-            y = (img.Height) / 2;
-            Crop filter = new Crop(new Rectangle(x, y, 175, 21));
+            x = (img.Width)/7;
+            y = 0;
+            Crop filter = new Crop(new Rectangle(x, y, 200, 70));
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
             pictureBox.Image = newImage;//coxinha
