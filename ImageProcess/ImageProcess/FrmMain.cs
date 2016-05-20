@@ -199,7 +199,7 @@ namespace ImageProcess
             Crop filter = new Crop(new Rectangle(x, y, 175, 21));
             var newImage = (Bitmap)filter.Apply(img);
             currentImage = newImage;
-            pictureBox.Image = newImage;
+            pictureBox.Image = newImage;//coxinha
         }
     }
 }
