@@ -137,21 +137,21 @@
             // meanToolStripMenuItem
             // 
             this.meanToolStripMenuItem.Name = "meanToolStripMenuItem";
-            this.meanToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.meanToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.meanToolStripMenuItem.Text = "Mean";
             this.meanToolStripMenuItem.Click += new System.EventHandler(this.meanToolStripMenuItem_Click);
             // 
             // medianToolStripMenuItem
             // 
             this.medianToolStripMenuItem.Name = "medianToolStripMenuItem";
-            this.medianToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.medianToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.medianToolStripMenuItem.Text = "Median";
             this.medianToolStripMenuItem.Click += new System.EventHandler(this.medianToolStripMenuItem_Click);
             // 
             // thresholdToolStripMenuItem
             // 
             this.thresholdToolStripMenuItem.Name = "thresholdToolStripMenuItem";
-            this.thresholdToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.thresholdToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.thresholdToolStripMenuItem.Text = "Threshold";
             this.thresholdToolStripMenuItem.Click += new System.EventHandler(this.thresholdToolStripMenuItem_Click);
             // 

@@ -13,15 +13,20 @@ namespace ImageProcess.filters
         public Bitmap process(Bitmap bmp)
         {
             Bitmap newImage = (Bitmap)bmp.Clone();
-            newImage = Grayscale.CommonAlgorithms.Y.Apply(newImage);
+            newImage = new AForge.Imaging.Filters.GrayscaleY().Apply(newImage);
             newImage = new AForge.Imaging.Filters.Threshold(50).Apply(newImage);
-            Dilatation filter = new Dilatation();
-            newImage = filter.Apply(newImage);
-            newImage = filter.Apply(newImage);
-            Erosion filter2 = new Erosion();
-            newImage = filter2.Apply(newImage);
-            newImage = filter2.Apply(newImage);
-            newImage = filter2.Apply(newImage);
+            newImage = new AForge.Imaging.Filters.Median().Apply(newImage);
+            newImage = new AForge.Imaging.Filters.Median().Apply(newImage);
+            newImage = new AForge.Imaging.Filters.Dilatation().Apply(newImage);
+            newImage = new AForge.Imaging.Filters.Median().Apply(newImage);
+            newImage = new AForge.Imaging.Filters.Erosion().Apply(newImage);
+            newImage = new AForge.Imaging.Filters.Erosion().Apply(newImage);
+            //newImage = filter.Apply(newImage);
+            // newImage = filter.Apply(newImage);
+            // Erosion filter2 = new Erosion();
+            // newImage = filter2.Apply(newImage);
+            //newImage = filter2.Apply(newImage);
+            // newImage = filter2.Apply(newImage);
             return newImage;
         }
         }
