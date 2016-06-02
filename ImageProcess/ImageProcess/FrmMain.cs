@@ -108,7 +108,7 @@ namespace ImageProcess
         {
             var img = (Bitmap)currentImage.Clone();
             var showImg = (Bitmap)currentImage.Clone();
-            img = Grayscale.CommonAlgorithms.Y.Apply(img);
+            //img = Grayscale.CommonAlgorithms.Y.Apply(img);
             img = new OtsuThreshold().Apply(img);
             img = new Erosion().Apply(img);
             img = new Invert().Apply(img);
